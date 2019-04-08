@@ -1,0 +1,219 @@
+@media only screen and (min-width: 640px), only screen and (min-device-width: 640px) {
+    html,
+    body {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px), only screen and (min-device-width: 600px) {
+    html,
+    body {
+        font-size: 18.75px;
+    }
+}
+
+@media only screen and (min-width: 540px), only screen and (min-device-width: 540px) {
+    html,
+    body {
+        font-size: 16.875px;
+    }
+}
+
+@media only screen and (min-width: 480px), only screen and (min-device-width: 480px) {
+    html,
+    body {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 414px), only screen and (min-device-width: 414px) {
+    html,
+    body {
+        font-size: 12.9375px;
+    }
+}
+
+@media only screen and (min-width: 400px), only screen and (min-device-width: 400px) {
+    html,
+    body {
+        font-size: 12.5px;
+    }
+}
+
+@media only screen and (min-width: 375px), only screen and (min-device-width: 375px) {
+    html,
+    body {
+        font-size: 11.71875px;
+    }
+}
+
+@media only screen and (min-width: 360px), only screen and (min-device-width: 360px) {
+    html,
+    body {
+        font-size: 11.25px;
+    }
+}
+
+@media only screen and (min-width: 320px), only screen and (min-device-width: 320px) {
+    html,
+    body {
+        font-size: 10px;
+    }
+}
+
+html,
+body,
+h1,
+p,
+a,
+ul,
+li,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    text-align: center;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.header {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.header h1 {
+    font-size: 3rem;
+    text-align: center;
+    /*margin: 2rem 0;*/
+}
+
+#restartGameButton,
+#newGameButton {
+    display: block;
+    background-color: #8f7a66;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 10rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0.5rem auto;
+}
+
+#newgameButton:hover {
+    background-color: #9f8b77;
+}
+
+.header p {
+    margin: 0.5rem 0.25rem;
+    background-color: #bbada0;
+    width: 5.5rem;
+    padding: 0.25rem;
+    text-align: center;
+    color: #eee4da;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.header p span {
+    display: block;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+#grid-container {
+    width: 23rem;
+    height: 23rem;
+    padding: 1rem;
+    margin: 0.25rem auto;
+    background-color: #bbada0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.grid-cell {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 6px;
+    background-color: #ccc0b3;
+    position: absolute;
+}
+
+.number-cell {
+    border-radius: 6px;
+    position: absolute;
+    text-align: center;
+    font-weight: 900;
+    z-index: 999;
+}
+
+#info {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    color: #fff;
+    z-index: 99999;
+    background: gray;
+}
+
+#info .tips {
+    display: block;
+    z-index: 999999999;
+}
+
+#info .sumScore {
+    display: block;
+    margin: 2rem 0;
+}
+
+#info #restartGameButton {
+    color: #fff;
+    background-color: #8f7a66;
+}
+
+#tips {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    color: #333;
+    text-align: center;
+}
+
+.tips-header {
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-top: 0.2rem;
+}
+
+#tips-image {
+    display: none;
+}
+
+.mobile {
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    top: 0.9rem;
+    right: 1.5rem;
+}
+
+.mobile > img {
+    width: 100%;
+    height: 100%;
+}
+
